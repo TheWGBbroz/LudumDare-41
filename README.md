@@ -10,3 +10,8 @@ A/D - Move left and right
 Space - Jump
 
 F - Shoot
+
+# Credits
+Music by Natanielc - https://soundcloud.com/user-255153960
+
+Graphics by Kenney - http://kenney.nl/
