@@ -9,8 +9,8 @@ Music by Natanielc (Chiptoise) - https://soundcloud.com/user-255153960
 	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 	<link href="style.css" rel="stylesheet">
 
-	<script src="https://thewgbbroz.nl/assets/js/p5.min.js"></script>
-	<script src="https://thewgbbroz.nl/assets/js/p5.sound.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.1.9/p5.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.1.9/addons/p5.sound.min.js"></script>
 
 	<!-- Entities -->
 	<script src="entity.js"></script> <!-- Super class -->
@@ -28,7 +28,8 @@ Music by Natanielc (Chiptoise) - https://soundcloud.com/user-255153960
 </head>
 <body>
 	<div id="canvas-holder"></div>
-	<br>
+	<button onclick="music.play()">Music doesn't play? Click here.</button>
+	<br><br>
 	This game combines the 2 "incompatible" genres: Shooter and Rhythm.<br>
 	The goal is to defeat all enemies in each level, by only shooting on the beats of the music.<br>
 	If you try to shoot when the music is not on a beat, you will take damage.<br>

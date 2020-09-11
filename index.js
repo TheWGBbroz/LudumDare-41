@@ -539,18 +539,18 @@ function keyPressed() {
 	}
 
 	if(EDITOR) {
-		if(key == 'E') {
+		if(key == 'e') {
 			entities.push(new Enemy(player.x, player.y));
 		}
 	}
 
-	if(key == 'A') {
+	if(key == 'a') {
 		player.left = true;
-	}else if(key == 'D') {
+	}else if(key == 'd') {
 		player.right = true;
 	}else if(key == ' ') {
 		player.tryToJump = true;
-	}else if(key == 'F') {
+	}else if(key == 'f') {
 		player.shoot();
 	}
 }
@@ -560,9 +560,9 @@ function keyReleased() {
 		return;
 	}
 
-	if(key == 'A') {
+	if(key == 'a') {
 		player.left = false;
-	}else if(key == 'D') {
+	}else if(key == 'd') {
 		player.right = false;
 	}else if(key == ' ') {
 		player.tryToJump = false;
