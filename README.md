@@ -2,7 +2,7 @@
 This is the source code of my game for the Ludum Dare 41 game jam.
 
 # Play it!
-You can play it on my website: https://thewgbbroz.nl/ld41/
+You can play it on my website: https://woutergritter.me/static/LudumDare-41/
 
 # Controls
 A/D - Move left and right
